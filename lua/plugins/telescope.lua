@@ -24,6 +24,7 @@ return {
     { "<leader>fc", "<cmd>Telescope git_commits<cr>", desc = "Git Commits" },
     { "<leader>fs", "<cmd>Telescope git_status<cr>", desc = "Git Status" },
     { "<leader>fw", "<cmd>Telescope grep_string<cr>", desc = "Grep String" },
+    { "<leader>sk", "<cmd>Telescope keymaps<cr>", desc = "Search Keymaps" },
   },
   opts = function()
     return {
